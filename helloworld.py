@@ -1,7 +1,7 @@
 def helloworld(input):
     #check if input is empty
     if not input.strip():
-        print("Input string can't be empty!");
+        print("Input string is empty!");
 
     #check if input is longer than 10 char
     elif len(input) > 10:
